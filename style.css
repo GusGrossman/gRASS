@@ -10,6 +10,8 @@ body {
 img {
 	z-index: -1;
 	outline: none;
+	touch-action: manipulation;
+
 }
 #touch {
 	z-index: 2;
