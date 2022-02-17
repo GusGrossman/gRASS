@@ -10,7 +10,7 @@
 
       document.body.appendChild(img);
     }
-    document.getElementById('touch').addEventListener('click', () =>
+    document.addEventListener('click', () =>
       show_image("data/blade.png", 17, 170,"touch")
     );
     var clicks = 0;
