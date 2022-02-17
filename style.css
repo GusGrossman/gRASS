@@ -25,6 +25,9 @@ img {
 #touch:active {
 	background-color: transparent;
 }
+#touch:focus {
+	background-color: transparent;
+}
 #touch:hover {
 	text-decoration: none;
 	cursor: pointer;
