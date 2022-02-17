@@ -18,6 +18,8 @@ img {
 	height: 100%;
 	border: none;
 	outline: none;
+	touch-action: manipulation;
+
 }
 #touch:hover {
 	text-decoration: none;
