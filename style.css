@@ -22,6 +22,9 @@ img {
 	  touch-action: manipulation;
 
 }
+#touch:active {
+	background-color: transparent;
+}
 #touch:hover {
 	text-decoration: none;
 	cursor: pointer;
