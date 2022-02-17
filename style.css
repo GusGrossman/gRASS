@@ -4,13 +4,14 @@ body {
 	margin: 0%;
 	padding: 0%;
 	overflow: hidden;
-		outline: none;
+	outline: none;
 
 }
 img {
 	z-index: -1;
 }
 .cool {
+	position:absolute;
 	border: none;
 	outline: none;
 	top:50%;
