@@ -9,6 +9,7 @@ body {
 }
 img {
 	z-index: -1;
+	outline: none;
 }
 #touch {
 	z-index: 2;
