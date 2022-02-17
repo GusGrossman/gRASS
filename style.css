@@ -5,6 +5,8 @@ body {
 	padding: 0%;
 	overflow: hidden;
 		outline: none;
+	  touch-action: manipulation;
+
 
 }
 img {
@@ -17,6 +19,8 @@ img {
 	height: 100%;
 	border: none;
 	outline: none;
+	  touch-action: manipulation;
+
 }
 #touch:hover {
 	text-decoration: none;
@@ -28,6 +32,8 @@ img {
 	bottom: 2%;
 	left: 50%;
 	transform: translate(-50%);
+	  touch-action: manipulation;
+
 }
 #touch:focus {
     background-color:transparent;
