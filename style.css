@@ -18,9 +18,7 @@ img {
 	left:50%;
 	transform: translate(-50%,-50%);
 }
-button:active {
-	background-color: transparent;
-}
+
 #touch {
 	z-index: 2;
 	background-color: transparent;
@@ -38,10 +36,8 @@ button:active {
 	text-align: center;
 	bottom: 2%;
 	left: 50%;
-	width:80%;
+	width:90%;
 	font-family: sans-serif;
 	transform: translate(-50%);
 }
-#touch:focus {
-    background-color:transparent;
-}
+
