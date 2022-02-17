@@ -5,12 +5,13 @@ body {
 	padding: 0%;
 	overflow: hidden;
 		outline: none;
-	  touch-action: manipulation;
-
 
 }
 img {
 	z-index: -1;
+}
+button:active {
+	background-color: transparent;
 }
 #touch {
 	z-index: 2;
@@ -19,14 +20,6 @@ img {
 	height: 100%;
 	border: none;
 	outline: none;
-	  touch-action: manipulation;
-
-}
-#touch:active {
-	background-color: transparent;
-}
-#touch:focus {
-	background-color: transparent;
 }
 #touch:hover {
 	text-decoration: none;
@@ -38,9 +31,6 @@ img {
 	bottom: 2%;
 	left: 50%;
 	transform: translate(-50%);
-	  touch-action: manipulation;
-	width:80%;
-
 }
 #touch:focus {
     background-color:transparent;
