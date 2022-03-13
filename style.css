@@ -7,6 +7,9 @@ body {
 	outline: none;
 
 }
+::selection {
+  background: transparent;
+}
 img {
 	z-index: -1;
 }
