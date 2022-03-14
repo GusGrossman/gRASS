@@ -7,45 +7,11 @@ body {
 	outline: none;
 
 }
+body:hover {
+	cursor:pointer;
+}
 ::selection {
   background: transparent;
-}
-img {
-	z-index: -1;
-}
-.cool {
-	position:absolute;
-	border: none;
-	outline: none;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-}
-
-#touch {
-	z-index: 2;
-	background-color: transparent;
-	width: 100%;
-	height: 100%;
-	border: none;
-	outline: none;
-}
-#touch:hover {
-	text-decoration: none;
-	cursor: pointer;
-}
-.counter {
-	display:none
-}
-@media only screen and (max-width: 768px) {
-	body {
-	height: 100vh;
-	background-color: #fff;
-	margin: 0%;
-	padding: 0%;
-	overflow: hidden;
-	outline: none;
-
 }
 img {
 	z-index: -1;
@@ -79,6 +45,7 @@ img {
 	width:90%;
 	font-family: sans-serif;
 	transform: translate(-50%);
-	display:block;
 }
+.counter:hover {
+	cursor:alias;
 }
