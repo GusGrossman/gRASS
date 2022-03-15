@@ -47,5 +47,5 @@ img {
 	transform: translate(-50%);
 }
 .counter:hover {
-	cursor:alias;
+	cursor:auto;
 }
